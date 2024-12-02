@@ -17,7 +17,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://raw.githubusercontent.com/Jackoki/trabalho-sistemas-distribuidos/refs/heads/main/images/function.png"  />
+  <img height="500" src="https://raw.githubusercontent.com/Jackoki/trabalho-sistemas-distribuidos/refs/heads/main/images/function.png"  />
 </div>
 
 ###
