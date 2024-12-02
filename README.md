@@ -54,21 +54,21 @@
 <p align="left">Evidentemente essa quantidade de tempo não se aplica na aplicação distribuída ou paralela, já que ocorre a divisão das tarefas com as Threads e tarefas, veja abaixo a comparação entre elas:</p>
 
 ###
-
+Sequencial:
 <div align="center">
-  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+  <img height="200" src="https://raw.githubusercontent.com/Jackoki/trabalho-sistemas-distribuidos/refs/heads/main/images/sequencial.gif"  />
 </div>
 
 ###
-
+Paralelo:
 <div align="center">
-  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+  <img height="200" src="https://raw.githubusercontent.com/Jackoki/trabalho-sistemas-distribuidos/refs/heads/main/images/parallel.gif"  />
 </div>
 
 ###
-
+Distribuido:
 <div align="center">
-  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+  <img height="200" src="https://raw.githubusercontent.com/Jackoki/trabalho-sistemas-distribuidos/refs/heads/main/images/distribuido.gif"  />
 </div>
 
 ###
