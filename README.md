@@ -28,6 +28,14 @@
 
 ###
 
+###
+
+<div align="center">
+  <img height="200" src="https://raw.githubusercontent.com/Jackoki/trabalho-sistemas-distribuidos/refs/heads/main/images/sequences.png"  />
+</div>
+
+###
+
 <p align="left">A lógica é simples, caso um número seja par ou divisível por 3, o número não é primo, caso ele não entre na condição anterior fazemos então uma estrutura de repetição que analisará até a raiz quadrada do número passado, já que é o maior número possível a dividir sem sobra. <br>No primeiro loop analisamos se o número passado é divisível por 5 ou 5 + 2, que seria 7, caso não seja divisível, continuamos o loop, sendo o próximo valor 5 + 6, e 5 + 6 + 2, ou seja, 11, essa forma se mostra muito mais eficiente, já que ao invés de realizamos a comparação de 1 em 1 dos divisores, analisamos os números ímpares que não são divisíveis por 3, tendo então o seguinte uso computacional de ciclos:</p>
 
 ###
