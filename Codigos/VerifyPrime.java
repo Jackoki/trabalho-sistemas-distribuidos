@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+//Código Java bem simples para passar um número teste
+//para verificar se ele é primo ou não.
+
+//Utilizamos esse código para autenticar o funcionamento 
+//dos números gerados nos outros códigos.
+
 public class VerifyPrime {
 
     // Método para verificar se um número é primo
@@ -26,7 +32,9 @@ public class VerifyPrime {
 
         if (ehPrimo(numero)) {
             System.out.println(numero + " é um número primo.");
-        } else {
+        } 
+        
+        else {
             System.out.println(numero + " não é um número primo.");
         }
     }

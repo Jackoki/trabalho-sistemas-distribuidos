@@ -2,6 +2,9 @@ import java.util.Scanner;
 import java.util.concurrent.ConcurrentSkipListSet;
 
 public class PrimeGeneratorParallel {
+
+	//Função que verifica se o número passado é primo ou não.
+    //Retorna false pra caso não seja, e true se for.
     public static boolean isPrime(long num) {
 		//Análise 1
         if (num <= 1){
@@ -35,6 +38,10 @@ public class PrimeGeneratorParallel {
 		//Ele organiza os elementos de forma ordenada ao inserir mesmo de forma concorrente
         ConcurrentSkipListSet<Long> set;
 
+
+		//Essa classe recebe 3 informações, o primeiro número que ela processará a partir do seu intervalo
+		//O último número que ela processará
+		//Uma estrutura de dados para organizar os elementos de forma ordenada de forma concorrente
         public ThreadTask(long startNumber, long finalNumber, ConcurrentSkipListSet<Long> set) {
             this.startNumber = startNumber;
             this.finalNumber = finalNumber;

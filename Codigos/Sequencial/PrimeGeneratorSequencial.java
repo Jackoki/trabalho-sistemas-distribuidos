@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class PrimeGeneratorSequencial {
 
+    //Função que verifica se o número passado é primo ou não.
+    //Retorna false pra caso não seja, e true se for.
     public static boolean isPrime(long num) {
 		//Análise 1
         if (num <= 1){
@@ -35,6 +37,7 @@ public class PrimeGeneratorSequencial {
         System.out.print("Digite o limite inferior do intervalo: ");
         long lowerLimit = scanner.nextLong();
 
+        // Último número do intervalo
         System.out.print("Digite o limite superior do intervalo: ");
         long upperLimit = scanner.nextLong();
 
