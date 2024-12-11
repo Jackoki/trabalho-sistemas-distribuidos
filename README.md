@@ -51,24 +51,15 @@
 
 ###
 
-<p align="left">Evidentemente essa quantidade de tempo não se aplica na aplicação distribuída ou paralela, já que ocorre a divisão das tarefas com as Threads e tarefas, veja abaixo a comparação entre elas:</p>
+<p align="left">Evidentemente essa quantidade de tempo não se aplica na aplicação distribuída ou paralela, já que ocorre a divisão das tarefas com as Threads e tarefas, veja abaixo a comparação entre elas de forma acelerada:</p>
 
-###
-Sequencial:
 <div align="center">
-  <img height="200" src="https://raw.githubusercontent.com/Jackoki/trabalho-sistemas-distribuidos/refs/heads/main/images/sequencial.gif"  />
+  <img height="200" src="https://raw.githubusercontent.com/Jackoki/trabalho-sistemas-distribuidos/refs/heads/main/images/comparision.gif"  />
 </div>
 
 ###
-Paralelo:
-<div align="center">
-  <img height="200" src="https://raw.githubusercontent.com/Jackoki/trabalho-sistemas-distribuidos/refs/heads/main/images/parallel.gif"  />
-</div>
 
-###
-Distribuido:
-<div align="center">
-  <img height="200" src="https://raw.githubusercontent.com/Jackoki/trabalho-sistemas-distribuidos/refs/heads/main/images/distribuido.gif"  />
-</div>
+<p align="left">De acordo com a comparação que fizemos, a programação sequencial teve uma velocidade de 40 segundos, a paralela teve um tempo de 15 segundos e o distriuido 10 segundos, isto é, a paralela é mais rapido que a sequencial em 62.5%, a distribuida é 75% mais rápida que a sequencial e 33.3% mais rápida que a paralela</p>
+
 
 ###
